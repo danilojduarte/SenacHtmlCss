@@ -18,7 +18,7 @@ body {
     background: var(--cor-fundo-cinza);
 }
 .box-content {
-    width: 70rem;
+    width: 100%;
     margin: auto;
     padding-inline: 2.4rem;
 }
@@ -86,6 +86,8 @@ body {
 .perfil {
     text-align: center;
     margin-top: 4rem;
+    background: var(--cor-text-3); 
+    padding: 2rem;
 }
 
 .perfil-conteudo {
