@@ -103,12 +103,13 @@ body {
     border-radius: 6px;
     transition: all 0.5s;
 }
+
 .home-button:hover {
     -webkit-transform: scale(1);
     transform: scale(1.2);
 }
 
-
+/* ==PERFIL== */
 .perfil {
     text-align: center;
     margin-top: 8rem;
@@ -134,10 +135,25 @@ body {
     width: 36rem;
     border-radius: 8px;
 }
+
 .perfil-conteudo p {
     text-align: justify;
     line-height: 2rem;
     font-size: 1.6rem;
     padding-top: 2rem;
-
 }
+
+/* ==APERFEIÇOAMENTOL== */
+.aperfeicoamento h2 {
+    color: #fff;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* ==EXPERIENCIA== */
+
+
+/* ==CONTATO== */
