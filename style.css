@@ -112,9 +112,12 @@ body {
 /* ==PERFIL== */
 .perfil {
     text-align: center;
+    
     margin-top: 8rem;
-    background: var(--cor-text-2);
+    padding-bottom: 8rem;
     padding-inline: 10rem 20rem;
+
+    background: var(--cor-text-2);   
 }
 
 .perfil-titulo h2 {
@@ -144,6 +147,10 @@ body {
 }
 
 /* ==APERFEIÇOAMENTOL== */
+.aperfeicoamento {
+    width: 100vw;
+    height: 40vh;
+}
 .aperfeicoamento h2 {
     color: #fff;
     padding-top: 2rem;
@@ -153,7 +160,63 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
-/* ==EXPERIENCIA== */
 
+.aperfeicoamento p {
+    color:var(--cor-principal-laranja);
+    text-align: center;
+    font-size: 1.6rem;
+}
+.aper-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card {
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.card img {
+    width: 8rem;
+    height: 6.3rem;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/* ==EXPERIENCIA== */
+.experiencia {
+    background: var(--cor-text-3);
+    width: 100vw;
+    height: auto;
+}
+.trab-cards{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 20vh 70vh;
+    
+    
+/*     
+    margin: 0 auto;
+    max-width: 1200px;
+
+    border-top: 1px solid #fff; */
+}
+.trab-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* 
+    /* display: grid;
+    grid-template-columns: repeat(2, 8fr);
+    grid-template-rows: repeat(8, 8vw);
+    grid-gap: 2px;
+} */ */
 
 /* ==CONTATO== */
