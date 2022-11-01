@@ -132,4 +132,12 @@ body {
 
 .perfil-img {
     width: 36rem;
+    border-radius: 8px;
+}
+.perfil-conteudo p {
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+
 }
