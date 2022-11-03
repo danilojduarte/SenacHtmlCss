@@ -112,12 +112,12 @@ body {
 /* ==PERFIL== */
 .perfil {
     text-align: center;
-    
+
     margin-top: 8rem;
     padding-bottom: 8rem;
     padding-inline: 10rem 20rem;
 
-    background: var(--cor-text-2);   
+    background: var(--cor-text-2);
 }
 
 .perfil-titulo h2 {
@@ -126,6 +126,7 @@ body {
     text-align: center;
     margin-bottom: 2rem;
     font-weight: 700;
+    color: var(--cor-fundo-cinza);
 }
 
 .perfil-conteudo {
@@ -151,6 +152,7 @@ body {
     width: 100vw;
     height: 40vh;
 }
+
 .aperfeicoamento h2 {
     color: #fff;
     padding-top: 2rem;
@@ -162,61 +164,143 @@ body {
 }
 
 .aperfeicoamento p {
-    color:var(--cor-principal-laranja);
+    color: var(--cor-principal-laranja);
     text-align: center;
     font-size: 1.6rem;
+    padding-bottom: 2rem;
 }
+
 .aper-cards {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
 .card {
     margin: auto;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .card img {
     width: 8rem;
     height: 6.3rem;
     margin: auto;
+
+    transition: all 1s;
+    cursor: pointer;
+}
+.card img:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 
-
-
-
-
-
-
 /* ==EXPERIENCIA== */
+.trabalhos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabalhos h2 {
+    color: #fff;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.trab-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trab-card img {
+    width: 14rem;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.trab-card img:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1.2);
+}
+
+.trabalhos-button {
+    background: var(--cor-principal-laranja);
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    width: 12rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 6px;
+
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.trabalhos-button:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(2px 2px 2px rgb(245, 242, 242));
+}
+
 .experiencia {
     background: var(--cor-text-3);
     width: 100vw;
     height: auto;
 }
-.trab-cards{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 20vh 70vh;
-    
-    
-/*     
-    margin: 0 auto;
-    max-width: 1200px;
-
-    border-top: 1px solid #fff; */
-}
-.trab-card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-
-/* 
-    /* display: grid;
-    grid-template-columns: repeat(2, 8fr);
-    grid-template-rows: repeat(8, 8vw);
-    grid-gap: 2px;
-} */ */
 
 /* ==CONTATO== */
+.contato {
+    background: var(--cor-text-2);
+    margin-bottom: 4rem;
+    height: 18rem;
+    border-radius: 8px;
+}
+.contato-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10rem 0;
+}
+.contato h2 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: var(--cor-fundo-cinza);
+    text-transform: uppercase;
+}
+.footer-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.footer-contato h4 {
+
+    font-size: 1rem;
+    text-align: center;
+
+    font-weight: 700;
+    color:var(--cor-principal-laranja);
+    text-transform: uppercase;
+}
+.footer-icons {
+    display: flex;
+    gap: 2rem;
+}
+.footer-icon {
+    width: 3rem;
+}
