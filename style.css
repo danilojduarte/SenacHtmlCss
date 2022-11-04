@@ -250,7 +250,7 @@ body {
 }
 
 .trabalhos-button:hover {
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .5));
+    -webkit-filter: drop-shadow(5px 5px 5px 5px rgba(0, 0, 0, .5));
     filter: drop-shadow(2px 2px 2px rgb(245, 242, 242));
 }
 
@@ -295,7 +295,7 @@ body {
 
     font-weight: 700;
     color:var(--cor-principal-laranja);
-    text-transform: uppercase;
+    
 }
 .footer-icons {
     display: flex;
